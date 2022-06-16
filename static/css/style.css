@@ -2375,9 +2375,6 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 .team-member-caption a:hover {
     text-decoration: none;
 }
-.team-member:hover .team-member-img-wrap:before {
-    opacity: 1;
-}
 .team-member:hover .team-member-caption h4,
 .team-member:hover .team-member-caption p {
     color: #fff;
