@@ -2301,27 +2301,6 @@ body.dark .header.header-fixed .logo a img.logo-dark {
     box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
 }
-.team-member-img-wrap {
-    position: relative;
-    display: block;
-    outline: 0 !important;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-}
-.team-member-img-wrap:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    -webkit-transition: .3s all ease;
-    transition: .3s all ease;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-}
 .team-member-caption {
     text-align: center;
     background: #fff;
@@ -2364,7 +2343,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 .team-member-caption .list li + li {
     margin-left: 5px;
 }
-.team-member-img-wrap img {
+.team-member-img-wrap {
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     max-width: 100%;
