@@ -2831,8 +2831,6 @@ body.blog-page article .comments-form .custom-button:before {
   margin-bottom: 0;
 }
 
-.widget.recent-posts .posts-thumb {}
-
 .widget.recent-posts .posts-thumb img {
   margin-right: 15px;
   width: 90px;
@@ -2983,91 +2981,8 @@ body.blog-page article .comments-form .custom-button:before {
 .contact {
     background-color: #efefef;
 }
-.contact .container:first-child {
-    padding: 100px 15px 30px !important;
-}
 /* Google Map */
 
-.gmap_container {
-    overflow: hidden;
-    height: 450px;
-    width: 100%;
-}
-.contact #gmap_canvas {
-    height: 450px;
-    width: 100%;
-}
-.contact #gmap_canvas img {
-    max-width: none!important;
-    background: none!important;
-}
-.contact #gmap_canvas strong {
-	line-height: 26px;
-	font-weight:700;
-}
-.info-map {
-    position: relative;
-    clear: both;
-    margin-top: 7px;
-}
-.info-map-gmap {
-    height: 450px;
-}
-.info-map-boxes {
-    zoom: 1;
-    position: relative;
-    margin-top: -180px;
-    margin-bottom: 44px;
-    -webkit-transition: opacity 0.2s linear;
-    transition: opacity 0.2s linear;
-}
-.info-map-boxes:before {
-    content: "";
-    display: table;
-}
-.info-map-boxes:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.info-map-boxes-item {
-  padding: 18px 20px 15px;
-  width: 100%;
-  border-radius: 7px;
-  font-size: 14px;
-  color: inherit;
-  background: #fff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 0 7px rgba(0, 0, 0, 0.15);
-}
-
-.info-map-boxes-item:before {
-  float: right;
-  margin: 0;
-  padding: 10px 0 0 30px;
-  font-size: 70px;
-  background: #fff;
-}
-
-.info-map-boxes-item:hover,
-.info-map-boxes-item:focus {
-  text-decoration: none;
-}
-
-.info-map-boxes-item h1 {
-  margin: 0;
-  padding: 0 0 15px;
-  border-bottom: 1px solid #eee;
-  font-size: 17px;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 20px;
-}
-
-.info-map-boxes-item p {
-  margin: 11px 0 0;
-  line-height: 25px;
-  font-size: 13px;
-}
 /* Contact Form */
 
 .contactform {
