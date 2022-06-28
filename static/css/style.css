@@ -2395,7 +2395,8 @@ body.dark .header.header-fixed .logo a img.logo-dark {
   color: #555;
   transition: .1s;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
   font-weight: 600;
   text-decoration: none;
   transition: 0.2s;
